@@ -1,0 +1,1 @@
+cmd_/home/usuarioso/Escritorio/FicherosP4/Chardev_leds/chardev_leds.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/usuarioso/Escritorio/FicherosP4/Chardev_leds/chardev_leds.ko /home/usuarioso/Escritorio/FicherosP4/Chardev_leds/chardev_leds.o /home/usuarioso/Escritorio/FicherosP4/Chardev_leds/chardev_leds.mod.o ;  true
